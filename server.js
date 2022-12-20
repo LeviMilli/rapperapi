@@ -32,7 +32,8 @@ app.get('/api/:name', (req, res)=>{
         let rapperObj = rappers[rapperName]
         res.json(rapperObj)
     } else {
-        res.json(rappers[unknown])
+        
+        res.json(rappers["unknown"])
     }
     
     
