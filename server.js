@@ -9,7 +9,8 @@ const rappers = {
     '21 savage': {
         "birth" : "london",
         "age" : 32,
-        "birthLocaion" : "Chicago"
+        "birthLocaion" : "Chicago",
+        'birthName': 'ben'
 }, 
     'chance': { 
         'age': 29,
@@ -18,7 +19,7 @@ const rappers = {
 }, 
     'unknown' : {
         'age' : 0,
-        'birth': 'unknown',
+        'birthName': 'unknown',
         'location': 'unknown'
 
     }
